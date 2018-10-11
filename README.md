@@ -12,6 +12,17 @@ or
 yarn add element-visibility-observer
 ```
 
+## Polyfills you will need
+```sh
+npm install intersection-observer @babel/polyfill
+```
+or
+```sh
+yarn add intersection-observer @babel/polyfill
+```
+* [intersection-observer](https://github.com/w3c/IntersectionObserver/tree/master/polyfill): `IntersectionObserver` support in Safari and IE
+* [@babel/polyfill](https://babeljs.io/docs/en/babel-polyfill): `Array.from` and `Object.assign` if you need IE support
+
 ## Usage
 ### Basic
 [Demo on Codepen](https://codepen.io/eky/pen/WapgRr?editors=0010)
@@ -43,8 +54,8 @@ elementVisibilityObserver.observe(
 	- **Default**: `0.25`
 	- Element is defined as "visible" when more then 25% of the element is visible in viewport (or root element).
 - `observerOption`
-	- Type: `Object`
-	- Default:
+	- **Type**: `Object`
+	- **Default**:
 	```javascript
 	{
 		root: null,
@@ -70,10 +81,3 @@ Destroy all observers
 ### Properties
 #### .observers
 `Array` of `IntersectionObserver`
-
-## Polyfills you will need
-```sh
-npm install intersection-observer @babel/polyfill
-```
-* [intersection-observer](https://github.com/w3c/IntersectionObserver/tree/master/polyfill) for `IntersectionObserver` support in Safari and IE
-* [@babel/polyfill](https://babeljs.io/docs/en/babel-polyfill) for `Array.from` and `Object.assign` if you need IE support
