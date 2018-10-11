@@ -1,0 +1,33 @@
+{
+  "name": "element-visibility-observer",
+  "version": "1.0.0",
+  "description": "A wrapper of IntersectionObserver for detecting element visibility in viewport.",
+  "main": "dist/ElementVisibilityObserver.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "Element",
+    "Visibility",
+    "Observer",
+    "Intersection"
+  ],
+  "author": "Eky Kwan <eky@eky.hk>",
+  "homepage": "https://github.com/eky/element-visibility-observer#readme",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/eky/element-visibility-observer"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "babel-eslint": "^7.1.1",
+    "babel-preset-env": "2.0.0-alpha.20",
+    "eslint": "^3.13.0",
+    "rollup": "^0.66.5",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-stream": "^1.24.1",
+    "rollup-watch": "^4.3.1"
+  }
+}
