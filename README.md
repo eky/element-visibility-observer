@@ -44,7 +44,7 @@ elementVisibilityObserver.observe(
 ### Get current visibility ratio
 [Demo on Codepen](https://codepen.io/eky/pen/pxeOwR?editors=0010)
 ### Lazyload
-[Demo on Codepen](https://codepen.io/eky/pen/pxeOwR?editors=0010)
+[Demo on Codepen](https://codepen.io/eky/pen/zmZmGM?editors=0010)
 
 ## API
 ### Constructor
